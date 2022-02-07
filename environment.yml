@@ -1,0 +1,16 @@
+name: rock_paper_scissors_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython
+  - ipykernel
+  - tensorflow=2.6.0
+  - numpy
+  - opencv
+  - pip
+  - pip: 
+      - cvzone
+      - mediapipe
+  - python
+
